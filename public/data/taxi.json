@@ -1,0 +1,53 @@
+{
+  "data": 
+  [
+    {
+      "name": "Tax",
+      "image": "/images/tax.webp",
+      "fromTo": "Arusha – Kilimanjaro Airport - Moshi",
+      "passengers": 3,
+      "luggage": 3,
+      "price": 45
+    },
+    {
+      "name": "Alphard",
+      "image": "/images/alphard.webp",
+      "fromTo": "Arusha – Kilimanjaro Airport - Moshi",
+      "passengers": 5,
+      "luggage": 5,
+      "price": 50
+    },
+    {
+      "name": "Haice",
+      "image": "/images/haice.webp",
+      "fromTo": "Arusha – Kilimanjaro Airport - Moshi",
+      "passengers": 9,
+      "luggage": 9,
+      "price": 65
+    },
+    {
+      "name": "Shuttle",
+      "image": "/images/coaster.webp",
+      "fromTo": "Arusha – Kilimanjaro Airport - Moshi",
+      "passengers": 20,
+      "luggage": 20,
+      "price": 15
+    },
+    {
+      "name": "Coaster",
+      "image": "/images/coaster.webp",
+      "fromTo": "Arusha – Kilimanjaro Airport - Moshi",
+      "passengers": 20,
+      "luggage": 20,
+      "price": 45
+    },
+    {
+      "name": "Safari Jeep",
+      "image": "/images/jeep.webp",
+      "fromTo": "Arusha – Kilimanjaro Airport - Moshi",
+      "passengers": 6,
+      "luggage": 8,
+      "price": 150
+    }
+  ]
+}
