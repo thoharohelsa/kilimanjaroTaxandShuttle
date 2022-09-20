@@ -5,19 +5,8 @@ Vue.use(Router);
 
 const router = new Router({
     mode: "history",
-
-    // scrollBehavior() {
-    //     return {
-    //         x: 0,
-    //         y: 0
-    //     };
-    // },
-
     base: process.env.cdn_url,
     routes: [
-        // ======================
-        // Blank Layout
-        // ======================
         {
             path: "",
             component: () => import("./layout/main/MainContainer.vue"),

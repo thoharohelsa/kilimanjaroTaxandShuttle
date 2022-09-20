@@ -16,12 +16,6 @@ const Testimonial = () => import("../components/Testimonial.vue");
 const ContactSection = () => import("../components/ContactSection.vue");
 const Faq = () => import("../components/Faq.vue");
 
-// import QuoteSection from "./components/QuoteSection.vue";
-// import Testimonial from "./components/Testimonial.vue";
-// import ContactSection from "./components/ContactSection.vue";
-// import Faq from "./components/Faq.vue";
-// import Copyright from "./components/Copyright.vue";
-
 export default {
   name: "App",
   components: {
@@ -29,7 +23,7 @@ export default {
     ServiceSection,
     Testimonial,
     ContactSection,
-    Faq
-  }
+    Faq,
+  },
 };
 </script>

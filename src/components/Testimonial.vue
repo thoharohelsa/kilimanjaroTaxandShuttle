@@ -77,13 +77,13 @@ export default {
         pagination: { el: ".swiper-pagination", clickable: true },
         navigation: {
           nextEl: ".swiper-button-next",
-          prevEl: ".swiper-button-prev"
-        }
-      }
+          prevEl: ".swiper-button-prev",
+        },
+      },
     };
   },
   created() {
-    axios.get("/data/testimonial.json").then(response => {
+    axios.get("/data/testimonial.json").then((response) => {
       this.testiData = response.data.data;
       this.isLoading = false;
     });
@@ -95,8 +95,8 @@ export default {
     },
     next() {
       this.$refs.tSwiper.$swiper.slideNext();
-    }
-  }
+    },
+  },
 };
 </script>
 

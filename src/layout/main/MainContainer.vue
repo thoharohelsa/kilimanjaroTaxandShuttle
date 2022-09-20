@@ -12,7 +12,7 @@ import Copyright from "../../components/Copyright";
 export default {
   name: "App",
   components: {
-    Copyright
-  }
+    Copyright,
+  },
 };
 </script>
